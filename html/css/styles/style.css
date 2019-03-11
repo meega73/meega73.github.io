@@ -261,3 +261,5 @@ body {
 .ho{
   cursor: pointer;
 }
+
+#return-to-top : .visible-xs-block, hidden-xs
