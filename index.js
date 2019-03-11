@@ -7,7 +7,6 @@ $(window).scroll(function(){
         
     }
     else {
-        console.log('test');
         $('#header').removeClass('navbar-fixed-top');
         $('#caption').show();
         
