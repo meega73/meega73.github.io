@@ -263,3 +263,80 @@ body {
 }
 
 /* #return-to-top : .visible-xs-block, hidden-xs */
+
+.tooltip{
+    /* position the tooltip in the top right of the container */
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+    /*  style the tooltip with the chosen color values */
+    color: color-card;
+    background: color-step;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 2.5px;
+  }
+
+.card{
+    line-height: 2;
+    background: color-card;
+    padding: 1.2rem 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px darken(color-card, 10%);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+  margin: 5vh 2.5vw;
+  /* padding: 15vh 0; */
+  background: color-card;
+  border-radius: 5px;
+   /* display the content in a single column layout */
+  display: flex;
+  flex-direction: column;
+  /* center the content */
+  align-items: center;
+  text-align: center;
+}
+
+
+.container__sources{
+     /* display the contents of the first container in a single row */
+    display: flex;
+    border-radius: 8px;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border: #2b95db solid 1px;
+    /* // position relative for the pseudo element */
+    position: relative;
+  }
+
+.container__build{
+
+    padding: 10vh 10vw;
+    border-radius: 8px;
+    background :darken(color-card, 2.5%);
+    
+    position: relative;
+  }
+
+  svg{
+      width: 4rem;
+      height: auto;
+      fill: color-bg;
+    }
+
+
+.container__deploy{
+    
+    background: darken(color-card, 2.5%);
+    padding: 1.5rem;
+    border-radius: 8px;
+    position: relative;
+  }
+
+.sources--cms{
+  
+}
