@@ -1,17 +1,23 @@
 $(document).ready(function () {
-    var $header = $(".navbar"),
-        $clone = $header.before($header.clone().addClass("clone"));
 
-    $(window).on("scroll", function () {
-        var fromTop = $(window).scrollTop();
-        $("body").toggleClass("down", (fromTop > 400));
-    });
+$(window).scroll(function(){
+    if ($(window).scrollTop() >= 300) {
+        $('#header').addClass('navbar-fixed-top');
+        $('#caption').hide();
+        
+    }
+    else {
+        console.log('test');
+        $('#header').removeClass('navbar-fixed-top');
+        $('#caption').show();
+        
+    }
+});
 
     // ===== Scroll to Top ==== 
     $(window).scroll(function () {
         if ($(this).scrollTop() >= 50) { // If page is scrolled more than 50px
             $('#return-to-top').fadeIn(200); // Fade in the arrow
-            $('#caption').hide();
         } else {
             $('#return-to-top').fadeOut(200); // Else fade out the arrow
         }
