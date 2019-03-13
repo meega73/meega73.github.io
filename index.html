@@ -2,300 +2,808 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <title> Meega Truckings</title>
-  <meta name="description" content="Responsive, Bootstrap, BS4" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-  <!-- for ios 7 style, multi-resolution icon of 152x152 -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-barstyle" content="black-translucent">
-  <link rel="apple-touch-icon" href="images/logo.png">
-  <meta name="apple-mobile-web-app-title" content="Flatkit">
-  <!-- for Chrome on Android, multi-resolution icon of 196x196 -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <link rel="shortcut icon" sizes="196x196" href="images/logo.png">
+    <!-- Title -->
+    <title>MeegaTrucnz</title>
 
-  <!-- style -->
-  <link rel="stylesheet" href="html/css/animate.css/animate.min.css" type="text/css" />
-  <link rel="stylesheet" href="html/css/glyphicons/glyphicons.css" type="text/css" />
-  <link rel="stylesheet" href="html/css/font-awesome/css/font-awesome.min.css" type="text/css" />
-  <link rel="stylesheet" href="html/css/material-design-icons/material-design-icons.css" type="text/css" />
-  <link rel="stylesheet" href="html/css/ionicons/css/ionicons.min.css" type="text/css" />
-  <link rel="stylesheet" href="html/css/simple-line-icons/css/simple-line-icons.css" type="text/css" />
-  <link rel="stylesheet" href="html/css/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
-  <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
-  <!-- build:css css/styles/app.min.css -->
-  <link rel="stylesheet" href="html/css/styles/app.css" type="text/css" />
-  <link rel="stylesheet" href="html/css/styles/style.css" type="text/css" />
-  <!-- endbuild -->
-  <link rel="stylesheet" href="html/css/styles/font.css" type="text/css" />
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.0.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
-  <div class="app" id="app">
-
-    <!-- ############ LAYOUT START-->
-
-    <div class="">
-      <div class="navbar">
-        <!-- <a data-toggle="collapse" data-target="#navbar" class="navbar-item pull-right hidden-md-up m-a-0 m-l">
-          <i class="ion-android-menu"></i>
-        </a> -->
-        <!-- brand -->
-        <div id="header" class="navbar-brand">
-          <img src="html/images/logo_color.png">
-          <span class="hidden-folded inline logo text-primary">Meega Trucnz</span>
-          <span class="text-muted" id="caption" style="font-size: 20px;font-family: Caveat;">Transcendence is the
-            Solution</span>
-        </div>
-        <!-- / brand -->
-      </div>
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="colorlib-load"></div>
     </div>
 
-    <!-- content -->
-    <div id="content" class="app-content" role="main">
-      <div class="app-body">
-
-        <!-- ############ PAGE START-->
-        <!-- Scroll  -->
-        <a href="javascript:" id="return-to-top" style="writing-mode: vertical-rl;"> <span>Scroll Up</span>
-          <span class="fa fa-long-arrow-up text-primary " style="font-size: 3rem;"></span>
-        </a>
-        <!-- Scroll End -->
-        <section>
-          <div class="box indigo-500" id="what" style="margin-bottom: 0px !important">
-            <div class="box-body">
-              <div class="padding">
-                <h2 class="m-l-lg text-center" style="font-size:50px">What we do</h2>
-              </div>
-              <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-3">
-                  <div class="list-group m-b hov indigo-50" style="box-shadow:0px 0px 10px 5px #bbdefb, 0 -1px 0px rgba(0, 0, 0, 0.02)">
-                    <p id="Automation" class="list-group-item b-l-primary b-l-3x text-primary text-2x ho "> Automation
-                      <span class="pull-right "><i class="fa fa-angle-double-right"></i></span> </p>
-                    <p id="Portability" class="list-group-item b-l-3x b-l-warning text-warning text-2x ho ">
-                      Portability
-                      <span class="pull-right "><i class="fa fa-angle-double-right"></i></span> </p>
-                    <p id="Accessability" class="list-group-item b-l-3x b-l-danger text-danger text-2x ho ">
-                      Accessability
-                      <span class="pull-right "><i class="fa fa-angle-double-right"></i></span> </p>
-                    <p id="Dashboard" class="list-group-item b-l-3x b-l-success text-success text-2x ho "> Dashboard
-                      <span class="pull-right "><i class="fa fa-angle-double-right"></i></span> </p>
-                  </div>
-                </div>
-                <div class="col-md-7">
-                  <div id="whatContant" class="text-2x" style="margin-top:3rem;"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section>
-          <div class="box cyan-50" id="includes" style="margin-bottom: 0px !important">
-            <div class="box-body">
-              <div class="padding">
-                <h2 class="m-l-lg text-center" style="font-size:50px">What you get</h2>
-              </div>
-              <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-3">
-                  <div class="list-group m-b hov" style="box-shadow:0px 0px 10px 5px #bbdefb, 0 -1px 0px rgba(0, 0, 0, 0.02)">
-                    <p id="Customers" class="list-group-item b-l-primary b-l-3x text-primary text-2x ho "> Customers
-                      <span class="pull-right "><i class="fa fa-angle-double-right"></i></span> </p>
-                    <p id="Jobs" class="list-group-item b-l-3x b-l-warning text-warning text-2x ho "> Jobs
-                      <span class="pull-right "><i class="fa fa-angle-double-right"></i></span> </p>
-                    <p id="Dispatch" class="list-group-item b-l-3x b-l-danger text-danger text-2x ho "> Dispatch
-                      <span class="pull-right "><i class="fa fa-angle-double-right"></i></span> </p>
-                    <p id="Bill" class="list-group-item b-l-3x b-l-success text-success text-2x ho "> Bill
-                      <span class="pull-right "><i class="fa fa-angle-double-right"></i></span> </p>
-                    <p id="Invoice" class="list-group-item b-l-accent b-l-3x text-accent text-2x ho "> Invoice
-                      <span class="pull-right "><i class="fa fa-angle-double-right"></i></span> </p>
-                    <p id="Payables" class="list-group-item b-l-3x b-l-black text-black text-2x ho "> Payables
-                      <span class="pull-right "><i class="fa fa-angle-double-right"></i></span> </p>
-                    <p id="Receivables" class="list-group-item b-l-3x b-l-info text-info text-2x ho "> Receivables
-                      <span class="pull-right "><i class="fa fa-angle-double-right"></i></span> </p>
-                    <p id="HR" class="list-group-item b-l-3x b-l-warn text-warn text-2x ho "> HR managements
-                      <span class="pull-right "><i class="fa fa-angle-double-right"></i></span> </p>
-                    <p id="Drivers" class="list-group-item b-l-3x b-l-brown text-brown text-2x ho "> Drivers and
-                      Pullers
-                      <span class="pull-right "><i class="fa fa-angle-double-right"></i></span> </p>
-                  </div>
-
-                </div>
-                <div class="col-md-7">
-                  <div id="includesContant" class="text-2x" style="margin-top:10rem;"></div>
-                </div>
-
-              </div>
-            </div>
-        </section>
-        <section>
-          <div class="box lime-100" id="expect" style="margin-bottom: 0px !important">
-            <div class="box-body">
-              <div class="padding">
-                <h2 class="m-l-lg text-center" style="font-size:50px">Don't worry about</h2>
-              </div>
-              <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-3">
-                  <div class="list-group m-b" style="box-shadow:0px 0px 10px 5px #bbdefb, 0 -1px 0px rgba(0, 0, 0, 0.02)">
-                    <p class="list-group-item b-l-primary b-l-3x text-primary text-2x ho "> Reliaiblity
-                      <span class="pull-right "><i class="fa fa-circle text-xs"></i></span> </p>
-                    <p class="list-group-item b-l-3x b-l-warning text-warning text-2x ho "> Accessability
-                      <span class="pull-right "><i class="fa fa-circle text-xs"></i></span> </p>
-                    <p class="list-group-item b-l-3x b-l-danger text-danger text-2x ho "> Encripting data
-                      <span class="pull-right "><i class="fa fa-circle text-xs"></i></span> </p>
-                    <p class="list-group-item b-l-3x b-l-success text-success text-2x ho "> Undeletable content
-                      <span class="pull-right "><i class="fa fa-circle text-xs"></i></span> </p>
-                    <p class="list-group-item b-l-brown b-l-3x text-brown text-2x ho "> 24/7 Support
-                      <span class="pull-right "><i class="fa fa-circle text-xs"></i></span> </p>
-                    <p class="list-group-item b-l-3x b-l-warn text-warn text-2x ho "> New features
-                      <span class="pull-right "><i class="fa fa-circle text-xs"></i></span> </p>
-                  </div>
-
-                </div>
-              </div>
-        </section>
-        <section>
-          <div class="box orange-50" id="future" style="margin-bottom: 0px !important">
-            <div class="box-body">
-              <div class="padding">
-                <h2 class="m-l-lg text-center" style="font-size:50px">Autonomus Software</h2>
-              </div>
-              <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8">
-                  <div class="container">
-                    <!-- in the sources container show three cards, side by side, or one atop the other on smaller viewports -->
-                    <div class="container__sources">
-                      <div class="sources--cms">
-                        <h3>Customer Order</h3>
-                        <p>Customer Creates an order of trucks on his portal</p>
-                      </div>
+    <!-- ***** Header Area Start ***** -->
+    <header class="header_area animated">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <!-- Menu Area Start -->
+                <div class="col-12 col-lg-10">
+                    <div class="menu_area">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <!-- Logo -->
+                            <a class="navbar-brand" href="#">
+                                <img src="img/logo_color.png" style="height:60px;">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar"
+                                aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span
+                                    class="navbar-toggler-icon"></span></button>
+                            <!-- Menu Area -->
+                            <div class="collapse navbar-collapse" id="ca-navbar">
+                                <ul class="navbar-nav ml-auto" id="nav">
+                                    <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#screenshot">Screenshot</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                                    <!-- <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li> -->
+                                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                                </ul>
+                                <!-- <div class="sing-up-button d-lg-none">
+                                    <a href="#">Sign Up Free</a>
+                                </div> -->
+                            </div>
+                        </nav>
                     </div>
-                    <span class="fa fa-long-arrow-down text-success text-2x "></span>
-                    <div class="container__sources">
-                        <div class="sources--cms">
-                          <h3>Get Order</h3>
-                          <p>All the request are updated on your side of the application</p>
-                        </div>
-                      </div>
-                      <span class="fa fa-long-arrow-down text-success text-2x "></span>
-                      <div class="container__sources">
-                          <div class="sources--cms">
-                            <h3>Dispatch</h3>
-                            <p>Daily Create a Dispatch for the requirement</p>
-                          </div>
-                        </div>
-                        <span class="fa fa-long-arrow-down text-success text-2x "></span>
-                        <div class="container__sources">
-                            <div class="sources--cms">
-                              <h3>Driver</h3>
-                              <p>Driver is notified on his mobile app and accepts the requests</p>
-                            </div>
-                          </div>
-                          <span class="fa fa-long-arrow-down text-success text-2x "></span>
-                          <div class="container__sources">
-                              <div class="sources--cms">
-                                <h3>Fright Bills</h3>
-                                <p>On easy to use Mobile App Driver can create Bill and send to the dispatcher </p>
-                              </div>
-                            </div>
-                            <span class="fa fa-long-arrow-down text-success text-2x "></span>
-                            <div class="container__sources">
-                                <div class="sources--cms">
-                                  <h3>Invoice</h3>
-                                  <p>Review the bills and invoice them every week</p>
-                                </div>
-                              </div>
-                              <span class="fa fa-long-arrow-down text-success text-2x "></span>
-                              <div class="container__sources">
-                                  <div class="sources--cms">
-                                    <h3>Receivalbles</h3>
-                                    <p>Email invoice to the customer and follow up on payments</p>
-                                  </div>
-                                </div>
-                  </div>
                 </div>
-                <div class="col-md-2"></div>
-              </div>
-              <!-- <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8">
-                  <p><span class="text-2x">We are developing a fully Autonomus Software</span><br>
-                    <p class="list-group-item text-primary text-2x white"> Customer order trucks on Portal </p>
-                    <span class="fa fa-long-arrow-down text-success text-2x "></span>
-                    <p class="list-group-item text-primary text-2x white"> Receive request </p>
-                    <p class="list-group-item text-primary text-2x white"> Create Dispatch, Assign drivers </p>
-                    <p class="list-group-item text-primary text-2x white"> Notify & Get the Driver acceptance </p>
-                    <p class="list-group-item text-primary text-2x white"> Create Bill from driver Mobile App </p>
-                    <p class="list-group-item text-primary text-2x white"> Invoice Bills every week </p>
-                    <p class="list-group-item text-primary text-2x white"> Email Invoice and Follow up on payments </p>
+                <!-- Signup btn -->
+                <!-- <div class="col-12 col-lg-2">
+                    <div class="sing-up-button d-none d-lg-block">
+                        <a href="#">Sign Up Free</a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Wellcome Area Start ***** -->
+    <section class="wellcome_area clearfix" id="home">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 col-md">
+                    <div class="wellcome-heading">
+                        <h2>Meega Trucnz</h2>
+                        <h3>M</h3>
+                        <p>Transendence is the solution</p>
+                    </div>
+                    <div class="get-start-area">
+                        <!-- Form Start -->
+                        <form action="#" method="post" class="form-inline">
+                            <input type="email" class="form-control email" placeholder="meegatrucking@gmail.com">
+                            <button type="submit" class="submit" value="Contact Us"><a style="color:white" href="#contact">Contact</a></button>
+                        </form>
+                        <!-- Form End -->
+                    </div>
                 </div>
-                <div class="col-md-2"></div>
-              </div> -->
             </div>
-        </section>
-        <section>
-          <div class="box brown-50" id="price" style="margin-bottom: 0px !important">
-            <div class="box-body">
-              <div class="padding row">
-                <div class="col-md-2"></div>
+        </div>
+        <!-- Welcome thumb top: 400px; width: 503px;height: 569px -->
+        <div class="welcome-thumb wow fadeInDown" data-wow-delay="0.5s">
+            <img src="img/bg-img/welcome-img.png" alt="">
+        </div>
+    </section>
+    <!-- ***** Wellcome Area End ***** -->
+
+    <!-- ***** Special Area Start ***** -->
+    <section class="special-area bg-white section_padding_200" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Section Heading Area -->
+                    <div class="section-heading text-center">
+                        <h2>Why Is It Special</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Single Special Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="single-icon">
+                            <i class="ti-mobile" aria-hidden="true"></i>
+                        </div>
+                        <h4>Easy to use</h4>
+                        <p>We made all the complex operation to work on a single click</p>
+                    </div>
+                </div>
+                <!-- Single Special Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="single-icon">
+                            <i class="ti-ruler-pencil" aria-hidden="true"></i>
+                        </div>
+                        <h4>Powerful Design</h4>
+                        <p>We build pretty complex tools though the Application is designed to improve user experience.
+                        </p>
+                    </div>
+                </div>
+                <!-- Single Special Area -->
+                <div class="col-12 col-md-4">
+                    <div class="single-special text-center wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="single-icon">
+                            <i class="ti-settings" aria-hidden="true"></i>
+                        </div>
+                        <h4>Customizability</h4>
+                        <p>We know your business is different from others. So we take your input and build application
+                            specifically for you.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Special Description Area -->
+        <!-- <div class="special_description_area mt-150">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="special_description_img">
+                            <img src="img/bg-img/special.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-5 ml-xl-auto">
+                        <div class="special_description_content">
+                            <h2>Our Best Propositions for You!</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                            <div class="app-download-area">
+                                <div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
+                                    <!-- Google Store Btn 
+                                    <a href="#">
+                                        <i class="fa fa-android"></i>
+                                        <p class="mb-0"><span>available on</span> Google Store</p>
+                                    </a>
+                                </div>
+                                <div class="app-download-btn wow fadeInDown" data-wow-delay="0.4s">
+                                    <!-- Apple Store Btn 
+                                    <a href="#">
+                                        <i class="fa fa-apple"></i>
+                                        <p class="mb-0"><span>available on</span> Apple Store</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </section>
+    <!-- ***** Special Area End ***** -->
+
+    <!-- ***** Awesome Features Start ***** -->
+    <section class="awesome-feature-area bg-white section_padding_0_50 clearfix" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Heading Text -->
+                    <div class="section-heading text-center">
+                        <h2>Awesome Features</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-user" aria-hidden="true"></i>
+                        <h5>Awesome Experience</h5>
+                        <p>We automate complex activities and make things easy to use so that you can concentrate on
+                            business growth.</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-pulse" aria-hidden="true"></i>
+                        <h5>Fast and Simple</h5>
+                        <p>Application reliable and responsive. Most of the complex operation are automated to single
+                            click of a button </p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-shield" aria-hidden="true"></i>
+                        <h5>Security</h5>
+                        <p>The Application runs from a secured cloud platform. None of the sensitive information will
+                            be shared</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-cloud" aria-hidden="true"></i>
+                        <h5>Cloud</h5>
+                        <p>All the data is stored in secured cloud database. This enables you to access the application
+                            from anywhere. Importantly no data can be lost. </p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-dashboard" aria-hidden="true"></i>
+                        <h5>Dashboard</h5>
+                        <p>We visualise your business so you dont have the trouble to read and understand the data</p>
+                    </div>
+                </div>
+                <!-- Single Feature Start -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-feature">
+                        <i class="ti-headphone" aria-hidden="true"></i>
+                        <h5>24/7 Online Support</h5>
+                        <p>Our support team will be available round the clock. And we are happy to assist you.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ***** Awesome Features End ***** -->
+
+    <!-- ***** Video Area Start ***** -->
+    <!-- <div class="video-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Video Area Start 
+                    <div class="video-area" style="background-image: url(img/bg-img/video.jpg);">
+                        <div class="video-play-btn">
+                            <a href="https://www.youtube.com/watch?v=f5BBJ4ySgpo" class="video_btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- ***** Video Area End ***** -->
+
+    <!-- ***** Cool Facts Area Start ***** -->
+    <!-- <section class="cool_facts_area clearfix">
+        <div class="container">
+            <div class="row">
+                <!-- Single Cool Fact
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="counter-area">
+                                <svg aria-hidden="true" style="height:60px;color:#ffffff" focusable="false" data-prefix="fab" data-icon="slack-hash" class="svg-inline--fa fa-slack-hash fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M446.2 270.4c-6.2-19-26.9-29.1-46-22.9l-45.4 15.1-30.3-90 45.4-15.1c19.1-6.2 29.1-26.8 23-45.9-6.2-19-26.9-29.1-46-22.9l-45.4 15.1-15.7-47c-6.2-19-26.9-29.1-46-22.9-19.1 6.2-29.1 26.8-23 45.9l15.7 47-93.4 31.2-15.7-47c-6.2-19-26.9-29.1-46-22.9-19.1 6.2-29.1 26.8-23 45.9l15.7 47-45.3 15c-19.1 6.2-29.1 26.8-23 45.9 5 14.5 19.1 24 33.6 24.6 6.8 1 12-1.6 57.7-16.8l30.3 90L78 354.8c-19 6.2-29.1 26.9-23 45.9 5 14.5 19.1 24 33.6 24.6 6.8 1 12-1.6 57.7-16.8l15.7 47c5.9 16.9 24.7 29 46 22.9 19.1-6.2 29.1-26.8 23-45.9l-15.7-47 93.6-31.3 15.7 47c5.9 16.9 24.7 29 46 22.9 19.1-6.2 29.1-26.8 23-45.9l-15.7-47 45.4-15.1c19-6 29.1-26.7 22.9-45.7zm-254.1 47.2l-30.3-90.2 93.5-31.3 30.3 90.2-93.5 31.3z"></path></svg>
+                            <h2><span class="text-white">Slack</span></h2>
+                                
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Cool Fact
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="counter-area">
+                            <h3><span class="counter">120</span></h3>
+                        </div>
+                        <div class="cool-facts-content">
+                            <i class="ion-happy-outline"></i>
+                            <p>Happy <br> Clients</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Cool Fact
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="counter-area">
+                            <h3><span class="counter">40</span></h3>
+                        </div>
+                        <div class="cool-facts-content">
+                            <i class="ion-person"></i>
+                            <p>ACTIVE <br>ACCOUNTS</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Cool Fact
+                <div class="col-12 col-md-3 col-lg-3">
+                    <div class="single-cool-fact d-flex justify-content-center wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="counter-area">
+                            <h3><span class="counter">10</span></h3>
+                        </div>
+                        <div class="cool-facts-content">
+                            <i class="ion-ios-star-outline"></i>
+                            <p>TOTAL <br>APP RATES</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- ***** Cool Facts Area End ***** -->
+
+    <!-- ***** App Screenshots Area Start ***** -->
+    <section class="app-screenshots-area section_padding_0_50 clearfix" style="background-color:#8844e2;" id="screenshot">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <!-- Heading Text  -->
+                    <div class="section-heading ">
+                        <h1 class="text-light">App Screenshots</h1>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row" style="margin-bottom: 2rem">
+                <!-- <div class="col-12">
+                    App Screenshots Slides 
+                    <div class="app_screenshots_slides owl-carousel" style="height:200px"> -->
+                <div class="single-shot col-md-4 col-sm-12 col-12">
+                    <img src="img/scr-img/app-1.jpg" alt="" style="height:250px">
+                </div>
+                <div class="single-shot col-md-4 col-sm-12 col-12">
+                    <img src="img/scr-img/app-2.jpg" alt="" style="height:250px">
+                </div>
+                <div class="single-shot col-md-4 col-sm-12 col-12">
+                    <img src="img/scr-img/app-3.jpg" alt="" style="height:250px">
+                </div>
+            </div>
+            <div class="row">
+                <div class="single-shot col-md-4 col-sm-12 col-12">
+                    <img src="img/scr-img/app-4.jpg" alt="" style="height:250px">
+                </div>
+                <div class="single-shot col-md-4 col-sm-12 col-12">
+                    <img src="img/scr-img/app-5.jpg" alt="" style="height:250px">
+                </div>
+                <div class="single-shot col-md-4 col-sm-12 col-12">
+                    <img src="img/scr-img/app-6.jpg" alt="" style="height:250px">
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- ***** App Screenshots Area End *****====== -->
+
+    <!-- ***** Pricing Plane Area Start *****==== -->
+    <section class="pricing-plane-area  clearfix" id="pricing">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Heading Text  -->
+                    <div class="section-heading text-center">
+                        <h2>Pricing Plan</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row no-gutters">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <!-- Package Price  -->
+                    <div class="single-price-plan text-center">
+                        <!-- Package Text  -->
+                        <div class="package-plan">
+                            <h5>Doer</h5>
+                            <div class="ca-price d-flex justify-content-center">
+                                <!-- <span>$</span> -->
+                                <h4>$$</h4>
+                            </div>
+                        </div>
+                        <div class="package-description">
+                            <p>Manual Authentication</p>
+                            <p>Unlimited updates</p>
+                            <p>Manual Bills</p>
+                            <p>Limited Server up-time</p>
+                            <p>Limited Support</p>
+                            <p>Upto 3 Users</p>
+                        </div>
+                        <!-- Plan Button  -->
+                        <div class="plan-button">
+                            <a href="#">Select Plan</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <!-- Package Price  -->
+                    <div class="single-price-plan text-center">
+                        <!-- Package Text  -->
+                        <div class="package-plan">
+                            <h5>Helper</h5>
+                            <div class="ca-price d-flex justify-content-center">
+                                <span>$</span>
+                                <h4>$$</h4>
+                            </div>
+                        </div>
+                        <div class="package-description">
+                            <p>Mobile Communication</p>
+                            <p>Unlimited updates</p>
+                            <p>Manual Bills</p>
+                            <p>Dedicated server</p>
+                            <p>24/7 Support</p>
+                            <p>Up to 10 users</p>
+                        </div>
+                        <!-- Plan Button  -->
+                        <div class="plan-button">
+                            <a href="#">Select Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <!-- Package Price  -->
+                    <div class="single-price-plan active text-center">
+                        <!-- Package Text  -->
+                        <div class="package-plan">
+                            <h5>Prime</h5>
+                            <div class="ca-price d-flex justify-content-center">
+                                <span>$</span>
+                                <h4>$$$</h4>
+                            </div>
+                        </div>
+                        <div class="package-description">
+                            <p>Slack Communication</p>
+                            <p>Electronic Bills</p>
+                            <p>Dedicated Server</p>
+                            <p>Driver mobile app</p>
+                            <p>24/7 Support</p>
+                            <p>Unlimited Users</p>
+                        </div>
+                        <!-- Plan Button  -->
+                        <div class="plan-button">
+                            <a href="#">Select Plan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Pricing Plane Area End ***** -->
+
+    <!-- ***** Client Feedback Area Start ***** -->
+    <!-- <section class="clients-feedback-area bg-white section_padding_100 clearfix" id="testimonials">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10">
+                    <div class="slider slider-for">
+                        Client Feedback Text 
+                        <div class="client-feedback-text text-center">
+                            <div class="client">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="client-description text-center">
+                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                            </div>
+                            <div class="client-name text-center">
+                                <h5>Aigars Silkalns</h5>
+                                <p>Ceo Colorlib</p>
+                            </div>
+                        </div>
+                        Client Feedback Text 
+                        <div class="client-feedback-text text-center">
+                            <div class="client">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="client-description text-center">
+                                <p>“ I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                            </div>
+                            <div class="client-name text-center">
+                                <h5>Jennifer</h5>
+                                <p>Developer</p>
+                            </div>
+                        </div>
+                        Client Feedback Text 
+                        <div class="client-feedback-text text-center">
+                            <div class="client">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="client-description text-center">
+                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job.”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                            </div>
+                            <div class="client-name text-center">
+                                <h5>Helen</h5>
+                                <p>Marketer</p>
+                            </div>
+                        </div>
+                        Client Feedback Text 
+                        <div class="client-feedback-text text-center">
+                            <div class="client">
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="client-description text-center">
+                                <p>“ I have been using it for a number of years. I use Colorlib for usability testing. It's great for taking images and making clickable image prototypes that do the job and save me the coding time and just the general hassle of hosting. ”</p>
+                            </div>
+                            <div class="star-icon text-center">
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                                <i class="ion-ios-star"></i>
+                            </div>
+                            <div class="client-name text-center">
+                                <h5>Henry smith</h5>
+                                <p>Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                Client Thumbnail Area
+                <div class="col-12 col-md-6 col-lg-5">
+                    <div class="slider slider-nav">
+                        <div class="client-thumbnail">
+                            <img src="img/bg-img/client-3.jpg" alt="">
+                        </div>
+                        <div class="client-thumbnail">
+                            <img src="img/bg-img/client-2.jpg" alt="">
+                        </div>
+                        <div class="client-thumbnail">
+                            <img src="img/bg-img/client-1.jpg" alt="">
+                        </div>
+                        <div class="client-thumbnail">
+                            <img src="img/bg-img/client-2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- ***** Client Feedback Area End ***** -->
+
+    <!-- ***** CTA Area Start ***** -->
+    <!-- <section class="our-monthly-membership section_padding_50 clearfix">
+        <div class="container">
+            <div class="row align-items-center">
                 <div class="col-md-8">
-                <h2 class="m-l-lg" style="font-size:50px">Contact us</h2>  
-              <p class="text-2x">For a Demo and details about pricing please email us at <strong>meegatrucking@gmail.com</strong></p>
-              </div>
-              <div class="col-md-2"></div>
+                    <div class="membership-description">
+                        <h2>Join our Monthly Membership</h2>
+                        <p>Find the perfect plan for you — 100% satisfaction guaranteed.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="get-started-button wow bounceInDown" data-wow-delay="0.5s">
+                        <a href="#">Get Started</a>
+                    </div>
+                </div>
             </div>
-        </section>
-        <!-- ############ PAGE END-->
+        </div>
+    </section> -->
+    <!-- ***** CTA Area End ***** -->
 
-      </div>
-    </div>
-    <!-- / -->
+    <!-- ***** Our Team Area Start ***** -->
+    <section class="our-Team-area bg-white section_padding_100_50 clearfix" id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <!-- Heading Text  -->
+                    <div class="section-heading">
+                        <h2>Our Team</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/1.jpg" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="https://www.linkedin.com/in/prasanna-beeruka-1452bb159/"><i class="fa fa-linkedin"
+                                            aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>Prasanna Beeruka</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/2.JPG" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="https://www.linkedin.com/in/kranthi-kandi-2222a0115/"><i class="fa fa-linkedin"
+                                            aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>Kranthi Kandi</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/3.jpg" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="https://www.linkedin.com/in/koushik-lingam-8372986b"><i class="fa fa-linkedin"
+                                            aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>Koushik Lingam</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-12 col-md-6 col-lg-3">
+                    <div class="single-team-member">
+                        <div class="member-image">
+                            <img src="img/team-img/team-4.jpg" alt="">
+                            <div class="team-hover-effects">
+                                <div class="team-social-icon">
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                                    <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="member-text">
+                            <h4>Roger West</h4>
+                            <p>Financer</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- ***** Our Team Area End ***** -->
 
-    <div class="footer black text-info-hover">
-      <div class="container">
-      </div>
-    </div>
+    <!-- ***** Contact Us Area Start ***** -->
+    <section class="footer-contact-area section_padding_100 clearfix" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Heading Text  -->
+                    <div class="section-heading">
+                        <h2>Get in touch with us!</h2>
+                        <div class="line-shape"></div>
+                    </div>
+                    <div class="footer-text">
+                        <p>Please reach us for a Demo</p>
+                    </div>
+                    <div class="address-text">
+                        <!-- <p><span>Address:</span> 40 Baria Sreet 133/2 NewYork City, US</p> -->
+                    </div>
+                    <div class="phone-text">
+                        <p><span>Phone:</span> +1 (314) 952-6143</p>
+                    </div>
+                    <div class="email-text">
+                        <p><span>Email:</span> meegatrucking@gmail.com</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <!-- Form Start-->
+                    <div class="contact_from">
+                        <form action="#" method="post">
+                            <!-- Message Input Area Start -->
+                            <div class="contact_input_area">
+                                <div class="row">
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name"
+                                                required>
+                                        </div>
+                                    </div>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" name="email" id="email"
+                                                placeholder="Your E-mail" required>
+                                        </div>
+                                    </div>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <textarea name="message" class="form-control" id="message" cols="30" rows="4"
+                                                placeholder="Your Message *" required></textarea>
+                                        </div>
+                                    </div>
+                                    <!-- Single Input Area Start -->
+                                    <div class="col-12">
+                                        <button type="submit" class="btn submit-btn">Send Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Message Input Area End -->
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Contact Us Area End ***** -->
 
-    <!-- ############ LAYOUT END-->
-  </div>
+    <!-- ***** Footer Area Start ***** -->
+    <footer class="footer-social-icon text-center section_padding_70 clearfix">
+        <!-- footer logo -->
+        <div class="footer-text">
+            <h2>Ca.</h2>
+        </div>
+        <!-- social icon-->
+        <div class="footer-social-icon">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="active fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+        </div>
+        <div class="footer-menu">
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Terms &amp; Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Foooter Text-->
+        <div class="copyright-text">
+            <!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
+            <p>Copyright ©2017 Ca. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+        </div>
+        <div class="copyright-text">
+                <h2><a href="https://fontawesome.com/license" target="_blank">Icon sponsers </a></h2>
+            </div>
+    </footer>
+    <!-- ***** Footer Area Start ***** -->
 
-  <!-- build:js scripts/app.min.js -->
-  <!-- jQuery -->
-  <script src="html/libs/jquery/dist/jquery.js"></script>
-  <!-- Bootstrap -->
-  <script src="html/libs/tether/dist/js/tether.min.js"></script>
-  <script src="html/libs/bootstrap/dist/js/bootstrap.js"></script>
-  <!-- core -->
-  <script src="html/libs/jQuery-Storage-API/jquery.storageapi.min.js"></script>
-  <script src="html/libs/PACE/pace.min.js"></script>
-  <script src="html/libs/jquery-pjax/jquery.pjax.js"></script>
-  <script src="html/libs/blockUI/jquery.blockUI.js"></script>
-  <script src="html/libs/jscroll/jquery.jscroll.min.js"></script>
-
-  <script src="html/scripts/config.lazyload.js"></script>
-  <script src="html/scripts/ui-load.js"></script>
-  <script src="html/scripts/ui-jp.js"></script>
-  <script src="html/scripts/ui-include.js"></script>
-  <script src="html/scripts/ui-device.js"></script>
-  <script src="html/scripts/ui-form.js"></script>
-  <script src="html/scripts/ui-modal.js"></script>
-  <script src="html/scripts/ui-nav.js"></script>
-  <script src="html/scripts/ui-list.js"></script>
-  <script src="html/scripts/ui-screenfull.js"></script>
-  <script src="html/scripts/ui-scroll-to.js"></script>
-  <script src="html/scripts/ui-toggle-class.js"></script>
-  <script src="html/scripts/ui-taburl.js"></script>
-  <script src="html/scripts/app.js"></script>
-  <script src="html/scripts/ajax.js"></script>
-
-  <script src="index.js"></script>
-  <!-- endbuild -->
+    <!-- Jquery-2.2.4 JS -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap-4 Beta JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins JS -->
+    <script src="js/plugins.js"></script>
+    <!-- Slick Slider Js-->
+    <script src="js/slick.min.js"></script>
+    <!-- Footer Reveal JS -->
+    <script src="js/footer-reveal.min.js"></script>
+    <!-- Active JS -->
+    <script src="js/active.js"></script>
 </body>
 
 </html>
