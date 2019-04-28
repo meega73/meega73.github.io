@@ -114,3 +114,8 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+.demo{
+        background-color:transparent !important;
+    border: none !important;
+}
