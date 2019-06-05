@@ -711,7 +711,7 @@
                         <!-- <p><span>Address:</span> 40 Baria Sreet 133/2 NewYork City, US</p> -->
                     </div>
                     <div class="phone-text">
-                        <p><span>Phone:</span> +1 (314) 952-6143</p>
+                        <p><span>Phone:</span> +1 (510) 397-9101</p>
                     </div>
                     <div class="email-text">
                         <p><span>Email:</span> meegatrucking@gmail.com</p>
@@ -720,39 +720,67 @@
                 <div class="col-md-6">
                     <!-- Form Start-->
                     <div class="contact_from">
-                        <form action="#" method="post">
-                            <!-- Message Input Area Start -->
-                            <div class="contact_input_area">
-                                <div class="row">
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" name="name" id="name"
-                                                placeholder="Your Name" required>
-                                        </div>
-                                    </div>
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" name="email" id="email"
-                                                placeholder="Your E-mail" required>
-                                        </div>
-                                    </div>
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-12">
-                                        <div class="form-group">
-                                            <textarea name="message" class="form-control" id="message" cols="30"
-                                                rows="4" placeholder="Your Message *" required></textarea>
-                                        </div>
-                                    </div>
-                                    <!-- Single Input Area Start -->
-                                    <div class="col-12">
-                                        <button type="submit" class="btn submit-btn">Send Now</button>
+                        <!-- <form action="#" method="post" name="submit-to-google-sheet"> -->
+                        <!-- Message Input Area Start -->
+                        <div class="contact_input_area">
+                            <div class="row">
+                                <!-- Single Input Area Start -->
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" name="name" id="name"
+                                            placeholder="Your Name" required>
                                     </div>
                                 </div>
+                                <!-- Single Input Area Start -->
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" name="email" id="email"
+                                            placeholder="Your E-mail" required>
+                                    </div>
+                                </div>
+                                <!-- Single Input Area Start -->
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea name="message" class="form-control" id="message" cols="30" rows="4"
+                                            placeholder="Your Message *" required></textarea>
+                                    </div>
+                                </div>
+                                <!-- Single Input Area Start -->
+                                <div class="col-12">
+                                    <button type="submit" id="ContactForm" class="btn submit-btn">Send Now</button>
+                                </div>
                             </div>
-                            <!-- Message Input Area End -->
+                        </div>
+                        <!-- Message Input Area End -->
+                        <!-- </form> -->
+
+                        <!-- <form name="submit-to-google-sheet">
+                            <input name="email" type="email" placeholder="Email" required>
+                            <button type="submit">Send</button>
                         </form>
+
+                        <script>
+                            const scriptURL = 'https://script.google.com/macros/s/AKfycbwxd0669BQPLXaUy4I7Yq_xNTpDyS141668utpGSrBI5jWh24s6/exec'
+                            const form = document.forms['submit-to-google-sheet']
+
+                            form.addEventListener('submit', e => {
+                                e.preventDefault()
+                                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                                    .then(response => console.log('Success!', response))
+                                    .catch(error => console.error('Error!', error.message))
+                            })
+                        </script> -->
+                        <!-- <script>
+                            const scriptURL = 'https://script.google.com/macros/s/AKfycbyueq4oYCa06_3jSloFFdnk4mNeN9hc5dRRfHz0LE_bD87zXrs/exec'
+                            const form = document.forms['submit-to-google-sheet']
+
+                            form.addEventListener('submit', e => {
+                                e.preventDefault()
+                                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                                    .then(response => console.log('Success!', response))
+                                    .catch(error => console.error('Error!', error.message))
+                            })
+                        </script> -->
                     </div>
                 </div>
             </div>
@@ -786,6 +814,8 @@
     <script src="js/footer-reveal.min.js"></script>
     <!-- Active JS -->
     <script src="js/active.js"></script>
+
+    <script src="js/app.js"></script>
 </body>
 
 </html>
