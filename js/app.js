@@ -12,7 +12,6 @@ $(document).ready(function () {
             alert('please enter Message')
             return
         }
-        alert($('#name').val() + ' ' + $('#email').val() + ' ' + $('#message').val())
         var data = {
             time: new Date(),
             name: $('#name').val(),
