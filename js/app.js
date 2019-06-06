@@ -2,10 +2,15 @@ $(document).ready(function () {
 
     $('#ContactForm').click(function () {
         var email = $('#email').val()
+        function validateEmail(email) {
+            var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return re.test(email);
+        }
+
         if ($('#name').val() == '') {
             alert('Please enter your name')
             return
-        } else if ((!email.includes('@')) || (!email.includes('.com') && !email.includes('.net'))) {
+        } else if (!validateEmail(email)) {
             alert('please enter valid email')
             return
         } else if ($('#message').val() == '') {
