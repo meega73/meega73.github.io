@@ -32,6 +32,9 @@ $(document).ready(function () {
             success: function (result) {
                 if (result.msg == 'success') {
                     alert('Thank you!! we will get in touch with you')
+                    $('#name').val("")
+                    $('#email').val("")
+                    $('#message').val("")
                 }
             }
         })
