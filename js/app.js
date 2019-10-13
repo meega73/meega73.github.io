@@ -24,7 +24,7 @@ $(document).ready(function () {
             message: $('#message').val()
         }
         $.ajax({
-            url: "http://54.67.34.66:3000/contact/ccForm",
+            url: "http://52.53.169.124:3000/contact/ccForm",
             data: JSON.stringify(data),
             type: 'post',
             dataType: 'json',
